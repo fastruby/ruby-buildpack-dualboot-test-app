@@ -5,7 +5,7 @@ def next?
   File.basename(__FILE__) == "Gemfile.next"
 end
 
-ruby '3.3.10'
+ruby '3.1.7'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 if next?
